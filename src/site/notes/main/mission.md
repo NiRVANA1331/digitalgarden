@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/main/mission/","tags":["gardenEntry"]}
 ---
 
-[[main/mission\|Home]] [[ideas/ideas_landing\|Ideas]]
+[[main/mission\|Home]] [[ideas/ideas_landing\|Ideas]] [[Sanket Tripathy CV.pdf|CV]]
 # The Axiomatic Self
 
 > *"I am not a hypothesis. I am not up for proof. I am given — and from here, all else follows."*
