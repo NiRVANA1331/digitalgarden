@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>index.md</title>
+<title>Automated Bayesian Hiring</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -36,63 +36,19 @@
 <div class="header-meta">
 </div>
 </header>
-<h1 id="automated-bayesian-hiring-predictor" tabindex="-1">Automated Bayesian Hiring Predictor</h1>
-<p><em>Status</em>: In Progress<br>
-<em>Last Updated</em>: May 31, 2025<br>
-<em>Tags</em>: <a class="tag" onclick="toggleTagSearch(this)" data-content="#in-progress">#in-progress</a> <a class="tag" onclick="toggleTagSearch(this)" data-content="#bayesian">#bayesian</a> <a class="tag" onclick="toggleTagSearch(this)" data-content="#ml">#ml</a> <a class="tag" onclick="toggleTagSearch(this)" data-content="#careers">#careers</a></p>
-<hr>
-<h2 id="overview" tabindex="-1">Overview</h2>
-<p>Can we build a system that estimates your probability of getting hired into a specific role based on previous applicant data — especially their outcomes and portfolios — and compare that with your own?</p>
-<hr>
-<h2 id="motivation" tabindex="-1">Motivation</h2>
-<p>Hiring feels noisy and opaque. But over time, patterns emerge.<br>
-If we had access to historical data — who applied, what their CVs looked like, who got offers — could we model this probabilistically?<br>
-Even without full data, can we prototype the mechanics of such a system?</p>
-<hr>
-<h2 id="first-thoughts" tabindex="-1">First Thoughts</h2>
-<p><picture src="/img/user/content/ideas/automated-bayesian-hiring/bays.png" alt=""><source media="(max-width:480px)" srcset="/img/optimized/L-kSKpG6MQ-307.webp" type="image/webp">
-<source media="(max-width:480px)" srcset="/img/optimized/L-kSKpG6MQ-307.jpeg">
-<img class="" src="/img/user/content/ideas/automated-bayesian-hiring/bays.png" alt="" width=""></picture></p>
+<p><a class="internal-link is-unresolved" href="/404" target="">Home</a> | <a class="internal-link is-unresolved" href="/404" target="">Ideas</a> | <a href="/CV.pdf" target="_blank" class="external-link">CV</a></p>
+<h1 id="automated-bayesian-hiring" tabindex="-1">🤖 Automated Bayesian Hiring</h1>
+<p>What would it look like to evaluate candidates not based on fixed thresholds but probabilistic confidence updates?</p>
+<p>This note explores a hiring model where beliefs are updated as data accumulates — similar to particle filters or Bayesian networks.</p>
+<h2 id="key-ideas" tabindex="-1">Key Ideas</h2>
 <ul>
-<li>Bayes' theorem is natural for this: updating belief in acceptance probability given similarity to successful applicants.</li>
-<li>Inputs:
-<ul>
-<li>Your CV vector</li>
-<li>Past applicants’ CVs</li>
-<li>Outcomes (offer/reject)</li>
+<li>Replace fixed rubrics with evolving belief states</li>
+<li>Incorporate uncertainty in candidate attributes</li>
+<li>Design decision thresholds that adapt based on hiring pool quality</li>
 </ul>
-</li>
-<li>Could use vector embeddings (e.g. from resumes) and similarity metrics</li>
-<li>Open questions:
-<ul>
-<li>How do we simulate historical data?</li>
-<li>How do we define “CV similarity” in a useful way?</li>
-</ul>
-</li>
-</ul>
-<hr>
-<h2 id="version-history" tabindex="-1">📈 Version History</h2>
-<h3 id="v0-1-may-31-2025" tabindex="-1">v0.1 — May 31, 2025</h3>
-<p>Initial outline and hypothesis.</p>
-<hr>
-<h2 id="work-log" tabindex="-1">Work Log</h2>
-<h3 id="may-31-2025" tabindex="-1">[May 31, 2025]</h3>
-<p>Wrote project outline. Considering embedding models to represent CVs.<br>
-Thinking about how to define a “prior” over acceptance rates.</p>
-<hr>
-<h2 id="technical-notes" tabindex="-1">Technical Notes</h2>
-<ul>
-<li>Consider using cosine similarity over document embeddings</li>
-<li>Logistic regression or simple Bayes classifier as baseline</li>
-<li>Could try a probabilistic programming framework (e.g., Pyro)</li>
-</ul>
-<hr>
-<h2 id="next-steps" tabindex="-1">Next Steps</h2>
-<ul>
-<li>Write simulation code for past applicants and outcomes</li>
-<li>Explore embedding approaches for resume text</li>
-<li>Sketch a naive Bayes-style formulation</li>
-</ul>
+<blockquote>
+<p>Work in progress. Subject to wild change. Published anyway.</p>
+</blockquote>
 </main>
 <script>window.location.hash&&document.getElementById(window.location.hash.slice(1)).classList.add("referred"),window.addEventListener("hashchange",(e=>{const t=e.oldURL.split("#");t[1]&&document.getElementById(t[1]).classList.remove("referred");const n=e.newURL.split("#");n[1]&&document.getElementById(n[1]).classList.add("referred")}),!1);const url_parts=window.location.href.split("#"),url=url_parts[0],referrence=url_parts[1];document.querySelectorAll(".cm-s-obsidian > *[id]").forEach((function(e){e.ondblclick=function(e){const t=url+"#"+e.target.id;navigator.clipboard.writeText(t)}}))</script>
 <script src="https://fastly.jsdelivr.net/npm/luxon@3.2.1/build/global/luxon.min.js"></script>
