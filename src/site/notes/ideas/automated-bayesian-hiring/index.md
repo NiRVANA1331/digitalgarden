@@ -3,7 +3,7 @@
 ---
 
 
-[[ideas/ideas_landing\|Home]] | [[ideas/ideas_landing\|Ideas]] | [CV](/CV.pdf)
+[[main/mission\|Home]] | [[ideas/ideas_landing\|Ideas]]
 
 # 🤖 Automated Bayesian Hiring
 
