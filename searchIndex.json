@@ -1,7 +1,7 @@
 [
 {
 		"title": "index.md",
-		"date":"Sat May 31 2025 17:57:36 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat May 31 2025 18:02:46 GMT+0000 (Coordinated Universal Time)",
 		"url":"/content/ideas/automated-bayesian-hiring/index-md/",
 		"content": "Automated Bayesian Hiring Predictor\nStatus: In Progress\nLast Updated: May 31, 2025\nTags: #in-progress #bayesian #ml #careers\n\nOverview\nCan we build a system that estimates your probability of getting hired into a specific role based on previous applicant data — especially their outcomes and portfolios — and compare that with your own?\n\nMotivation\nHiring feels noisy and opaque. But over time, patterns emerge.\nIf we had access to historical data — who applied, what their CVs looked like, who got offers — could we model this probabilistically?\nEven without full data, can we prototype the mechanics of such a system?\n\nFirst Thoughts\n\nBayes' theorem is natural for this: updating belief in acceptance probability given similarity to successful applicants.\nInputs:\n\nYour CV vector\nPast applicants’ CVs\nOutcomes (offer/reject)\n\nCould use vector embeddings (e.g. from resumes) and similarity metrics\nOpen questions:\n\nHow do we simulate historical data?\nHow do we define “CV similarity” in a useful way?\n\n📈 Version History\nv0.1 — May 31, 2025\nInitial outline and hypothesis.\n\nWork Log\n[May 31, 2025]\nWrote project outline. Considering embedding models to represent CVs.\nThinking about how to define a “prior” over acceptance rates.\n\nTechnical Notes\n\nConsider using cosine similarity over document embeddings\nLogistic regression or simple Bayes classifier as baseline\nCould try a probabilistic programming framework (e.g., Pyro)\n\nNext Steps\n\nWrite simulation code for past applicants and outcomes\nExplore embedding approaches for resume text\nSketch a naive Bayes-style formulation",
 		"tags": ["in-progress", "bayesian", "ml", "careers", "note"]
@@ -9,7 +9,7 @@
 
 {
 		"title": "Ideas",
-		"date":"Sat May 31 2025 17:57:36 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat May 31 2025 18:02:46 GMT+0000 (Coordinated Universal Time)",
 		"url":"/content/ideas/index-md/",
 		"content": "description: &quot;A growing collection of ideas I'm exploring.&quot;\n🌱 Ideas\nThis is a collection of raw, in-progress ideas. They might be messy, incomplete, or even wrong — but they matter to me.\n🧠 Notes\n\nAutomated Bayesian Hiring\n\n← Back to Home",
 		"tags": [ "note"]
@@ -17,9 +17,9 @@
 
 {
 		"title": "index.md",
-		"date":"Sat May 31 2025 17:57:36 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sat May 31 2025 18:02:46 GMT+0000 (Coordinated Universal Time)",
 		"url":"/",
-		"content": "<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">Home</a> | <a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">Ideas</a> | CV\nThe Axiomatic Self\n\n&quot;I am not a hypothesis. I am not up for proof. I am given — and from here, all else follows.&quot;\n\nThis site isn’t a portfolio. It’s not optimized for aesthetics or performance.\nWhat lives here is unfinished, uncertain, and absolutely mine.\nNotes that are raw, half-formed, possibly wrong.\nExperiments that may lead nowhere.\nObservations that don’t yet fit into a paper or a proof.\nBut they’re real. And I care about them.\nAnd that alone is reason enough to let them exist — in the open.\nThis is a record of a mind unfolding on its own terms.\nWelcome.",
+		"content": "<a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">index.md</a> | <a class=\"internal-link is-unresolved\" href=\"/404\" target=\"\">Ideas</a> | CV\nThe Axiomatic Self\n\n&quot;I am not a hypothesis. I am not up for proof. I am given — and from here, all else follows.&quot;\n\nThis site isn’t a portfolio. It’s not optimized for aesthetics or performance.\nWhat lives here is unfinished, uncertain, and absolutely mine.\nNotes that are raw, half-formed, possibly wrong.\nExperiments that may lead nowhere.\nObservations that don’t yet fit into a paper or a proof.\nBut they’re real. And I care about them.\nAnd that alone is reason enough to let them exist — in the open.\nThis is a record of a mind unfolding on its own terms.\nWelcome.",
 		"tags": [ "note","gardenEntry"]
 }
 ]
