@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Build Digital Garden
-        uses: clyde-noggles/digitalgarden-action@main
+        uses: oleeskild/publish-digitalgarden@v3
         env:
           NOTE_FOLDER: _notes
           BASE_URL: ""
