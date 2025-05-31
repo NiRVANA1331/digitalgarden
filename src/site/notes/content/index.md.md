@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/content/index-md/","title":"Home"}
+{"dg-publish":true,"permalink":"/content/index-md/","title":"Home","tags":["gardenEntry"]}
 ---
-
 
 [[index\|Home]] | [[ideas/index\|Ideas]] | [CV](/CV.pdf)
 
