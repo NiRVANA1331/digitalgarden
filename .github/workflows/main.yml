@@ -1,0 +1,19 @@
+name: Digital Garden Publish
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v2
+
+      - name: Build Digital Garden
+        uses: oleeskild/digitalgarden-action@main
+        env:
+          NOTE_FOLDER: _notes
+          BASE_URL: ""
