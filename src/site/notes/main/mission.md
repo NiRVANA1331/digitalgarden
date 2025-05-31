@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/main/mission/","tags":["gardenEntry"]}
 ---
 
-[[main/mission\|Home]] [[ideas/ideas_landing\|Ideas]] [CV](/CV.pdf)
+[[main/mission\|Home]] [[ideas/ideas_landing\|Ideas]] [CV](../../public/CV.pdf)
 # The Axiomatic Self
 
 > *"I am not a hypothesis. I am not up for proof. I am given — and from here, all else follows."*
