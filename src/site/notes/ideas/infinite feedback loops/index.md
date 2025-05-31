@@ -4,4 +4,4 @@
 
 [[main/mission\|Home]] | [[ideas/ideas_landing\|Ideas]]
 
-Summing infinite loops
+Summing infinite loops. Small change.
