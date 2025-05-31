@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/content/index-md/","tags":["gardenEntry"]}
 ---
 
-[[content/index.md\|index.md]] | [[content/ideas/index.md\|Ideas]] | [CV](static/cv.pdf)
+[[content/index.md\|index]] | [[content/ideas/index.md\|Ideas]] | [CV](static/cv.pdf)
 
 # The Axiomatic Self
 
