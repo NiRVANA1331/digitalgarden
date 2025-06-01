@@ -1,7 +1,7 @@
 [
 {
 		"title": "automated-bayesian-hiring",
-		"date":"Sun Jun 01 2025 10:50:47 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sun Jun 01 2025 11:29:02 GMT+0000 (Coordinated Universal Time)",
 		"url":"/ideas/automated-bayesian-hiring/index/",
 		"content": "<a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/\">Home</a> | <a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/ideas/ideas-landing/\">Ideas</a>\n🤖 Automated Bayesian Hiring\nWhat would it look like to evaluate candidates not based on fixed thresholds but probabilistic confidence updates?\nThis note explores a hiring model where beliefs are updated as data accumulates — similar to particle filters or Bayesian networks.\nKey Ideas\n\nReplace fixed rubrics with evolving belief states\nIncorporate uncertainty in candidate attributes\nDesign decision thresholds that adapt based on hiring pool quality\n\nWork in progress. Subject to wild change. Published anyway.",
 		"tags": [ "note"]
@@ -9,7 +9,7 @@
 
 {
 		"title": "ideas_landing",
-		"date":"Sun Jun 01 2025 10:50:47 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sun Jun 01 2025 11:29:02 GMT+0000 (Coordinated Universal Time)",
 		"url":"/ideas/ideas-landing/",
 		"content": "<a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/\">Home</a>\n🌱 Ideas\nThis page collects early-stage notes, thoughts, and problem framings. Some are questions, others are projects in progress.\nCurrent Topics\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/ideas/automated-bayesian-hiring/index/\">Automated Bayesian Hiring</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/ideas/infinite-feedback-loops/index/\">Infinite feedback loops</a>\n\nThese notes may evolve or break — and that's exactly the point.",
 		"tags": [ "note"]
@@ -17,7 +17,7 @@
 
 {
 		"title": "infinite feedback loops",
-		"date":"Sun Jun 01 2025 10:50:47 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sun Jun 01 2025 11:29:02 GMT+0000 (Coordinated Universal Time)",
 		"url":"/ideas/infinite-feedback-loops/index/",
 		"content": "<a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/\">Home</a> | <a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/ideas/ideas-landing/\">Ideas</a>\nSumming infinite loops. Small change.",
 		"tags": [ "note"]
@@ -25,7 +25,7 @@
 
 {
 		"title": "mission",
-		"date":"Sun Jun 01 2025 10:50:47 GMT+0000 (Coordinated Universal Time)",
+		"date":"Sun Jun 01 2025 11:29:02 GMT+0000 (Coordinated Universal Time)",
 		"url":"/",
 		"content": "<a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/\">Home</a> <a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/ideas/ideas-landing/\">Ideas</a> CV\nThe Axiomatic Self\n\n&quot;I am not a hypothesis. I am not up for proof. I am given — and from here, all else follows.&quot;\n\nThis site isn’t a portfolio. It’s not optimized for aesthetics or performance.\nWhat lives here is unfinished, uncertain, and absolutely mine.\nNotes that are raw, half-formed, possibly wrong.\nExperiments that may lead nowhere.\nObservations that don’t yet fit into a paper or a proof.\nBut they’re real. And I care about them. They are mine. And I like them.\nAnd that alone is reason enough to let them exist — in the open.\nThis is a record of a mind unfolding on its own terms.\nWelcome.",
 		"tags": [ "note","gardenEntry"]
