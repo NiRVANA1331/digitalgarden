@@ -14,7 +14,7 @@ Notes that are raw, half-formed, possibly wrong.
 Experiments that may lead nowhere.  
 Observations that don’t yet fit into a paper or a proof.
 
-But they’re real. And I care about them.  
+But they’re real. And I care about them. They are mine. And I like them.
 And that alone is reason enough to let them exist — in the open.
 
 This is a record of a mind unfolding on its own terms.
