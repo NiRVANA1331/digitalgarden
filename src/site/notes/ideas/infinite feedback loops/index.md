@@ -4,4 +4,4 @@
 
 [[main/mission\|Home]] | [[ideas/ideas_landing\|Ideas]]
 
-Summing infinite loops. Small change.
+Summing infinite loops. Small change. A little more of change.
