@@ -13,5 +13,6 @@ This page collects early-stage notes, thoughts, and problem framings. Some are q
 
 - [[ideas/automated-bayesian-hiring/index\|Automated Bayesian Hiring]]
 - [[ideas/infinite feedback loops/index\|Infinite feedback loops]]
+- [[ideas/Computational Circuits and Causality/index\|Computation and Causality]]
 
 > These notes may evolve or break — and that's exactly the point.
