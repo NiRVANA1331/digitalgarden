@@ -1,7 +1,7 @@
 [
 {
 		"title": "Computational Circuits and Causality",
-		"date":"Wed Jun 04 2025 06:43:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Wed Jun 04 2025 06:44:35 GMT+0000 (Coordinated Universal Time)",
 		"url":"/ideas/computational-circuits-and-causality/index/",
 		"content": "<a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/\">Home</a> | <a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/ideas/ideas-landing/\">Ideas</a>\n🤖 Computational Circuits and Causality",
 		"tags": [ "note"]
@@ -9,7 +9,7 @@
 
 {
 		"title": "automated-bayesian-hiring",
-		"date":"Wed Jun 04 2025 06:43:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Wed Jun 04 2025 06:44:35 GMT+0000 (Coordinated Universal Time)",
 		"url":"/ideas/automated-bayesian-hiring/index/",
 		"content": "<a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/\">Home</a> | <a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/ideas/ideas-landing/\">Ideas</a>\n🤖 Automated Bayesian Hiring\nWhat would it look like to evaluate candidates not based on fixed thresholds but probabilistic confidence updates?\nThis note explores a hiring model where beliefs are updated as data accumulates — similar to particle filters or Bayesian networks.\nKey Ideas\n\nReplace fixed rubrics with evolving belief states\nIncorporate uncertainty in candidate attributes\nDesign decision thresholds that adapt based on hiring pool quality\n\nWork in progress. Subject to wild change. Published anyway.",
 		"tags": [ "note"]
@@ -17,15 +17,15 @@
 
 {
 		"title": "ideas_landing",
-		"date":"Wed Jun 04 2025 06:43:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Wed Jun 04 2025 06:44:35 GMT+0000 (Coordinated Universal Time)",
 		"url":"/ideas/ideas-landing/",
-		"content": "<a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/\">Home</a>\n🌱 Ideas\nThis page collects early-stage notes, thoughts, and problem framings. Some are questions, others are projects in progress.\nCurrent Topics\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/ideas/automated-bayesian-hiring/index/\">Automated Bayesian Hiring</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/ideas/infinite-feedback-loops/index/\">Infinite feedback loops</a>\n\nThese notes may evolve or break — and that's exactly the point.",
+		"content": "<a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/\">Home</a>\n🌱 Ideas\nThis page collects early-stage notes, thoughts, and problem framings. Some are questions, others are projects in progress.\nCurrent Topics\n\n<a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/ideas/automated-bayesian-hiring/index/\">Automated Bayesian Hiring</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/ideas/infinite-feedback-loops/index/\">Infinite feedback loops</a>\n<a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/ideas/computational-circuits-and-causality/index/\">Computation and Causality</a>\n\nThese notes may evolve or break — and that's exactly the point.",
 		"tags": [ "note"]
 },
 
 {
 		"title": "infinite feedback loops",
-		"date":"Wed Jun 04 2025 06:43:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Wed Jun 04 2025 06:44:35 GMT+0000 (Coordinated Universal Time)",
 		"url":"/ideas/infinite-feedback-loops/index/",
 		"content": "<a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/\">Home</a> | <a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/ideas/ideas-landing/\">Ideas</a>\nIdea is to talk about what happens with a system's trajectory when it starts having a self-feedback loop. Not the steady state solution but the temporal trajectory it follows.\nLet's start with a simple system to study and explore the idea with it.\n\nA mass connected to a perfect spring which is connected to a wall. If the mass was pushed towards the wall, the spring forces increases which in turn decreases the velocity of of the mass. But note that the velocity doesn't directly change the spring force, it changes the rate of change of spring force. In any case, this leads to the oscillatory behaviour that we know and love.\nLet's simplify it even further. Say we have a special spring that, instead of F=−k.x, obeys F=−k.v, kinda like drag but it pushes and pulls. Then, when the velocity changes it changes the force which changes the velocity and so on and so forth. This would be a feedback loop. Question is, what's the trajectory now i.e v vs t. That's simple to work out: dvdt=−kv⟹dvv=−kdt and hence a exponential decay.\n\nBut this assumes something fundamental. That the process happens step by step. dv leads to dF leads to dv and so forth. What if, we were not allowed to break time into steps? What if we ask the question: What happens at each instant of time, whatever that means? Well, we have to start by saying there is some finite discreetness. Say, you could not go beyond the limit of Δt. That's the smallest time we can measure and which &quot;exists&quot;. Let's draw the diagram:\n\nGiven that we can't talk about any discretization beyond Δt in a practical sense, all discretization are mathematically valid but equivalent. Hence, as in the above diagram, in that Δt time, any number of paths could have happened. First, velocity decreases by a bit, then force then velocity ... or even velocity then force then force then velocity or any other arbitrary choice. The straight lines refer to a change in velocity and squigly lines refer to a change in force. No matter what path is taken though, it should coincide with the equation we wrote earlier after Δt.\nWhat happens when we go beyond causality? Allow past to influence the future or visa versa?",
 		"tags": [ "note"]
@@ -33,7 +33,7 @@
 
 {
 		"title": "mission",
-		"date":"Wed Jun 04 2025 06:43:24 GMT+0000 (Coordinated Universal Time)",
+		"date":"Wed Jun 04 2025 06:44:35 GMT+0000 (Coordinated Universal Time)",
 		"url":"/",
 		"content": "<a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/\">Home</a> <a class=\"internal-link\" target=\"\" data-note-icon=\"\" href=\"/ideas/ideas-landing/\">Ideas</a>\nThe Axiomatic Self\n\n&quot;I am not a hypothesis. I am not up for proof. I am given — and from here, all else follows.&quot;\n\nThis site isn’t a portfolio. It’s not optimized for aesthetics or performance.\nWhat lives here is unfinished, uncertain, and absolutely mine.\nNotes that are raw, half-formed, possibly wrong.\nExperiments that may lead nowhere.\nObservations that don’t yet fit into a paper or a proof.\nBut they’re real. And I care about them. They are mine. And I like them.\nAnd that alone is reason enough to let them exist — in the open.\nThis is a record of a mind unfolding on its own terms.\nWelcome.",
 		"tags": [ "note","gardenEntry"]
